@@ -123,6 +123,7 @@ button {
 .container {
   width: min(1140px, calc(100% - 2rem));
   margin: 1 auto;
+  margin-left: 30px;
 }
 
 .page-overlay {
@@ -354,6 +355,7 @@ p {
   max-width: 680px;
   position: relative;
   z-index: 2;
+  margin-left: 30px;
 }
 
 .hero-badge {
@@ -380,13 +382,15 @@ p {
   font-size: 1.05rem;
   margin-bottom: 1.25rem;
   max-width: 720px;
+  margin-top: -320px;
+   margin-left: 30px;
 }
-
 
 
 .hero-description {
   margin-bottom: 2rem;
   max-width: 700px;
+  margin-top: -20px;
 }
 
 .hero-actions {
@@ -394,6 +398,7 @@ p {
   flex-wrap: wrap;
   gap: 1rem;
   margin-bottom: 2.4rem;
+  margin-left: 30px;
 }
 
 .hero-metrics {
@@ -426,6 +431,7 @@ p {
   gap: 1.5rem;
   position: relative;
   z-index: 2;
+  margin-left: 30px;
 }
 
 .avatar-card {
